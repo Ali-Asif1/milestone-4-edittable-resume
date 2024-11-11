@@ -17,4 +17,6 @@ form.addEventListener('submit', function (e) {
     else {
         console.error('some fields are missing');
     }
+    // display on generate time
+    var display = resumeDisplay.style.display = 'block';
 });

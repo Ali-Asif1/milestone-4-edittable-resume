@@ -103,20 +103,9 @@ body {
 }
 .btn-box {
   width: 100%;
-  /* display:grid;
-    grid-template-columns: 1fr 1fr; */
   margin-top: 1rem;
-  /* gap: 1rem; */
 }
-/* .btn{
-    width: 100%;
-    background-color: rgba(187, 67, 67, 0.986);
-    text-align: center;
-    border: none;
-    border-radius: 4px;
-    padding: 8px;
-    cursor: pointer;
-} */
+
 button {
   cursor: pointer;
   font-size: 1rem;
@@ -127,31 +116,13 @@ button {
   border-radius: 4px;
   padding: 12px;
 }
-/* .btn input[type="file"]{
-    display:none;
-}
-.btn label{
-    background-color: rgba(187, 67, 67, 0.986);
-    width: 100%;
-    padding: 8px 12%;
-    color: whitesmoke;
-    border: none;
-    cursor: pointer;
-} */
+
 #newName {
   color: black;
   background-color: blue;
   padding: 20px;
 }
 
-@media (max-width: 380px) {
-  .btn-box {
-    grid-template-columns: 1fr;
-  }
-  .btn {
-    padding: 6px;
-  }
-}
 
 @media (max-width: 600px) {
   .personal-box {
@@ -164,7 +135,6 @@ button {
     font-size: 1.2rem;
     text-align: center;
   }
-  .btn label,
   button {
     font-size: 12px;
   }
@@ -172,6 +142,7 @@ button {
 
 /* styling on showing resume diplay  */
 .resume {
+  display: none;
   font-family: poppins, sans-serif;
   width: 100%;
   max-width: 600px;
